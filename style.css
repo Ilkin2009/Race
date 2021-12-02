@@ -1,0 +1,31 @@
+img {
+    width: 100px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    border: 6px solid black;
+    border-radius: 25px;
+    background-color: white;
+    transition: 0.7s;
+}
+button:hover {
+    background-color: black;
+    border: 6px solid white;
+    color: white;
+    transition: 0.3s;
+}
+.road {
+    border: 5px solid black;
+    border-radius: 10px;
+    height: 100px;
+    margin-top: 20px;
+    background-image: url(finish.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
